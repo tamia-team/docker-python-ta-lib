@@ -1,6 +1,12 @@
 Changelog of docker-python-ta-lib
 =================================
 
+## [v0.4.26_python3.11.4-alpine3.17](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.26_python3.11.4-alpine3.17) (2023-06-08)
+
+* Use latest version (v0.4.26) of [Python wrapper for TA-Lib](https://mrjbq7.github.io/ta-lib/).
+* Use latest version ([v3.17](https://alpinelinux.org/posts/Alpine-3.17.0-released.html)) of [Alpine Linux](https://alpinelinux.org).
+* Use [Python](https://www.python.org/) [v3.11.4](https://www.python.org/downloads/release/python-3114/).
+
 ## [v0.4.24_python3.10-alpine3.16](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.24_python3.10-alpine3.16) (2022-08-25)
 
 * Use latest version (v0.4.24) of [Python wrapper for TA-Lib](https://mrjbq7.github.io/ta-lib/).

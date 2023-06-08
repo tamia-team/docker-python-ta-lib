@@ -1,10 +1,11 @@
 # deepnox/python-ta-lib:0.4.24_python3.10-alpine3.16
 # ===================================================
 
-FROM python:3.10-alpine3.16
+FROM python:3.11.4-alpine3.17
+
 MAINTAINER The Deepnox Team <contact@deepnox.io>
 
-ENV PYTHON_TA_LIB_VERSION "0.4.24"
+ENV PYTHON_TA_LIB_VERSION "0.4.26"
 
 USER "root"
 WORKDIR "/tmp"
