@@ -1,6 +1,10 @@
 Changelog of docker-python-ta-lib
 =================================
 
+## [v0.4.26_poetry1.5.1-alpine3.17-slim](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.26_poetry1.5.1-alpine3.17-slim) (2023-06-14)
+
+* Use slim base image: [deepnox/poetry:1.5.1](https://github.com/deepnox-io/docker-poetry). 
+
 ## [v0.4.26_python3.11.4-alpine3.17](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.26_python3.11.4-alpine3.17) (2023-06-08)
 
 * Use latest version (v0.4.26) of [Python wrapper for TA-Lib](https://mrjbq7.github.io/ta-lib/).
