@@ -1,6 +1,11 @@
 Changelog of docker-python-ta-lib
 =================================
 
+## [v0.4.26_poetry1.5.1](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.26_poetry1.5.1) (2023-07-21)
+
+* Use standard base image instead slim version: [deepnox/poetry:1.5.1](https://github.com/deepnox-io/docker-poetry). 
+* Multistaging. 
+
 ## [v0.4.26_poetry1.5.1-alpine3.17-slim](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.26_poetry1.5.1-alpine3.17-slim) (2023-06-14)
 
 * Use slim base image: [deepnox/poetry:1.5.1](https://github.com/deepnox-io/docker-poetry). 
