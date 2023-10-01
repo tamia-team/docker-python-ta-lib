@@ -1,6 +1,6 @@
 docker:
   image:
-    name: deepnox/python-talib
+    name: deepnox/python-ta-lib
     tag: "{{ vars.talib.version }}_python{{ vars.python.version }}-alpine{{ vers.os.alpine.version }}" 
   dockerfiles:
     - name: Alpine
