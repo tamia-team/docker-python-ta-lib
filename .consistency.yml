@@ -1,0 +1,18 @@
+docker:
+  image:
+    name: deepnox/python-talib
+    tag: "{{ vars.talib.version }}_python{{ vars.python.version }}-alpine{{ vers.os.alpine.version }}" 
+  dockerfiles:
+    - name: Alpine
+      template: https://deepnox-io/docker-python-talib/.ops/templates/alpine.dockerfile.j2 
+      dest: ./Dockerfile.alpine
+
+vars:
+  os:
+    alpine:
+      version: "3.18"
+  python: 
+    version: "3.11.5"
+  talib:
+    version: "0.4.28"
+

@@ -1,11 +1,11 @@
-# deepnox/python-ta-lib:0.4.26_poetry1.5.1
+# deepnox/python-ta-lib:0.4.28_poetry1.6.1
 # =========================================
 
-FROM deepnox/poetry:1.5.1-python3.11.4-alpine3.17 as builder
+FROM deepnox/python-poetry:1.6.1-python3.11.5-alpine3.18 as builder
 
 MAINTAINER The Deepnox Team <contact@deepnox.io>
 
-ENV PYTHON_TA_LIB_VERSION "0.4.26"
+ENV PYTHON_TA_LIB_VERSION "0.4.28"
 
 USER root
 WORKDIR "/tmp"
