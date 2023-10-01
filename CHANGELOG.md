@@ -3,7 +3,7 @@ Changelog of docker-python-ta-lib
 
 ## [v0.4.28_poetry1.6.1](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.28_poetry1.6.1) (2023-10-01)
 
-- Upgrade to Python v3.11.5 with Poetry v1.6.1.
+- Upgrade to Python v3.11.5 with Poetry v1.6.1 (based on deepnox/python-poetry:python3.11.5-alpine3.18-poetry1.6.1).
 - Upgrade Python TaLib to v0.4.28
 
 ## [v0.4.26_poetry1.5.1](https://github.com/9fevrier/docker-python-ta-lib/tree/v0.4.26_poetry1.5.1) (2023-07-21)
