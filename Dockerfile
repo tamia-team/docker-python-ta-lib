@@ -1,7 +1,7 @@
 # deepnox/python-ta-lib:0.4.28_poetry1.6.1
 # =========================================
 
-FROM deepnox/python-poetry:1.6.1-python3.11.5-alpine3.18 as builder
+FROM deepnox/python-poetry:python3.11.5-alpine3.18-poetry1.6.1 as builder
 
 MAINTAINER The Deepnox Team <contact@deepnox.io>
 

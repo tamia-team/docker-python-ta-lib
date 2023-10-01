@@ -1,13 +1,13 @@
-# deepnox/python-ta-lib:0.4.24_python3.10-alpine3.16
-# ===================================================
+# deepnox/python-ta-lib:0.4.28_poetry1.6.1
+# =========================================
 
-FROM python:3.11.4-alpine3.17
+FROM deepnox/python-poetry:python3.11.5-alpine3.18-poetry1.6.1 as builder
 
 MAINTAINER The Deepnox Team <contact@deepnox.io>
 
-ENV PYTHON_TA_LIB_VERSION "0.4.26"
+ENV PYTHON_TA_LIB_VERSION "0.4.28"
 
-USER "root"
+USER root
 WORKDIR "/tmp"
 
 RUN apk add --no-cache --virtual .build-deps \
@@ -32,6 +32,11 @@ RUN apk add --no-cache --virtual .build-deps \
               /var/cache/apk/* \
               /var/lib/apk/lists/*
 
-WORKDIR "/root"
+FROM scratch 
+
+COPY --from=builder ["/", "/"]
+
+USER python
+WORKDIR "/app"
 
 CMD ["python3"]
